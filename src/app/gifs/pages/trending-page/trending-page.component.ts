@@ -1,5 +1,5 @@
-import {  AfterViewInit, Component, computed, ElementRef, Inject, inject, signal, viewChild } from '@angular/core';
-import { GifListComponent } from '../../components/gif-list/gif-list.component';
+import {  AfterViewInit, Component,ElementRef, inject,  viewChild } from '@angular/core';
+
 import { GifsService } from '../../services/gifs.service';
 import { ScrollStateService } from 'src/app/shared/services/scroll-state.service';
 

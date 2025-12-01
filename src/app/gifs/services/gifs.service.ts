@@ -1,10 +1,11 @@
 import { HttpClient } from "@angular/common/http";
 import { computed, effect, inject, Injectable, signal } from "@angular/core";
-import { environment } from "@enviroments/environment";
+
 import type {  GiphyResponse } from "../interfaces/giphy.interfaces";
 import { Gif } from '../interfaces/gif.interface';
 import { GifMapper } from "../mapper/gif.mapper";
 import { map, Observable, tap } from "rxjs";
+import { environment } from "@enviroments/environment";
 
 const GIF_KEY = 'gifs';
 
