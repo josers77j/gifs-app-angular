@@ -5,7 +5,7 @@ import type {  GiphyResponse } from "../interfaces/giphy.interfaces";
 import { Gif } from '../interfaces/gif.interface';
 import { GifMapper } from "../mapper/gif.mapper";
 import { map, Observable, tap } from "rxjs";
-import { environment } from "@enviroments/environment";
+import { environment } from "@environments/environment";
 
 const GIF_KEY = 'gifs';
 
